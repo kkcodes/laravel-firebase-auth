@@ -1,7 +1,7 @@
 # Firebase Authentication Package for Laravel 
 
 ## Description
-Firebase Authentication package Baked for Laravel and currently supports Facebook and Google Sign Login. Other methods will be added shortly.
+Firebase Authentication package Baked for Laravel and currently supports Facebook and Google Login. Other methods will be added shortly.
 
 ## Dependency
 
