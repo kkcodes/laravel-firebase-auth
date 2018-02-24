@@ -37,6 +37,9 @@ php artisan vendor:publish --provider="Kkcodes\FirebaseAuth\FirebaseAuthServiceP
 ```
 php artisan migrate
 ```
+```
+php artisan db:seed --class=FirebaseSigninSourceTableSeeder
+```
 
 **From Firebase Console, at the top left corner, there is a Web Setup Button. Click on that and copy and paste the value for respective key in `.env` file**
 
