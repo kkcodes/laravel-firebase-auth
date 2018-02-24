@@ -37,6 +37,11 @@ php artisan vendor:publish --provider="Kkcodes\FirebaseAuth\FirebaseAuthServiceP
 ```
 php artisan migrate
 ```
+
+```
+composer dump-autload
+```
+
 ```
 php artisan db:seed --class=FirebaseSigninSourceTableSeeder
 ```
@@ -52,6 +57,8 @@ FIREBASE_STORAGE_BUCKET=
 FIREBASE_SENDER_ID=
 
 ```
+
+**This package by defaults uses Laravel app.blade.php, hence do add this, `@yield('head')` before the closing head tag**
 
 **Run it, assuiming on localhost:8000/auth/login`**
 ```
