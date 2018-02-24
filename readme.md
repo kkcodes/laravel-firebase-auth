@@ -32,7 +32,7 @@ Kkcodes\FirebaseAuth\FirebaseAuthServiceProvider::class
 php artisan vendor:publish --provider="Kkcodes\FirebaseAuth\FirebaseAuthServiceProvider"
 ```
 
-**Now Let's migrate the requried tables**
+**Now Let's migrate the required tables**
 
 ```
 php artisan migrate
@@ -58,9 +58,9 @@ FIREBASE_SENDER_ID=
 
 ```
 
-**This package by defaults uses Laravel app.blade.php, hence do add this, `@yield('head')` before the closing head tag**
+**This package by default uses Laravel `app.blade.php`, hence do add this, `@yield('head')` before the closing head tag**
 
-**Run it, assuiming on localhost:8000/auth/login`**
+**Run it, assuiming on `localhost:8000/auth/login`**
 ```
 auth/login
 ```
