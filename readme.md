@@ -53,7 +53,7 @@ FIREBASE_SENDER_ID=
 
 ```
 
-**Let's run it. Test is it, with this path after `public/`**
+**Run it, assuiming on localhost:8000/auth/login`**
 ```
 auth/login
 ```
