@@ -39,7 +39,7 @@ php artisan migrate
 ```
 
 ```
-composer dump-autload
+composer dump-autoload
 ```
 
 ```
