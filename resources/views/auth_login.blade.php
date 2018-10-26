@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends.'pages/layouts.app')
 
 @section('head')
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.6.1/firebaseui.css" />
